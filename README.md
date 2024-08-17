@@ -14,11 +14,13 @@ The project consists of several playbooks and roles that allow you to:
 
 ### Ansible Automation Platform - Windows 0-Day BSoD Recovery (VMware vSphere)
 
-[![Watch the video demo](https://img.shields.io/badge/Watch-Video%20Demo-blue?style=for-the-badge&logo=github)](https://github.com/oatakan/ansible-automation-platform-demos/blob/main/assets/ansible-windows-0-day-bsod-recovery/AAP%20-%20Windows%200-Day%20BSOD%20Recover%20-%20VMware%20-%20Edited.mp4)
+https://github.com/user-attachments/assets/58c25289-00c6-4175-bd14-412b436eb5e4
 
 ### Ansible Automation Platform - Windows 0-Day BSoD Recovery (OpenShift Virtualization)
 
-[![Watch the video demo](https://img.shields.io/badge/Watch-Video%20Demo-blue?style=for-the-badge&logo=github)](https://github.com/oatakan/ansible-automation-platform-demos/raw/main/assets/ansible-windows-0-day-bsod-recovery/AAP%20-%20Windows%200-Day%20BSOD%20Recover%20-%20OpenShift%20Virt%20-%20Edited.mp4)
+<a href="https://github.com/user-attachments/assets/dcd3c642-4da3-4646-8bc3-0320fbbc1868">
+  <img src="https://img.shields.io/badge/Watch-Ansible%20Demo-red?style=for-the-badge&logo=ansible" alt="OpenShift Virtualization" title="Click to view Demo">
+</a>
 
 ## Architecture and Workflow
 
