@@ -24,7 +24,7 @@ controller_projects:
     organization: Default
     scm_type: git
     scm_url: https://github.com/oatakan/ansible-windows-0-day-bsod-recovery.git
-    scm_branch: master
+    scm_branch: main
 
 controller_inventories:
   - name: localhost

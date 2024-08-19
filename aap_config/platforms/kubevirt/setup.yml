@@ -53,7 +53,7 @@ controller_projects:
     organization: Default
     scm_type: git
     scm_url: https://github.com/oatakan/ansible-openshift-virtualization-inventory-source.git
-    scm_branch: master
+    scm_branch: main
 
 controller_inventories:
   - name: OpenShift Inventory
