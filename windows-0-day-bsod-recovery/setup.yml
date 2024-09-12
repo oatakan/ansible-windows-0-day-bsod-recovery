@@ -75,6 +75,8 @@ controller_templates:
     extra_vars:
       provider: kubevirt
       kubevirt_upload_pvc_storage_class: ocs-external-storagecluster-ceph-rbd
+      kubevirt_upload_pvc_access_mode: ReadWriteMany
+      kubevirt_upload_pvc_volume_mode: Block
     execution_environment: Ansible Base EE Dev
     ask_credential_on_launch: true
     ask_inventory_on_launch: true
