@@ -11,12 +11,12 @@ metadata:
 spec:
   pvc:
     accessModes:
-      - ReadWriteOnce
+      - {{ kubevirt_upload_pvc_access_mode }}
     dataSource: null
     resources:
       requests:
         storage: {{ (((iso_file_check.stat.size/1024/1024)|round(0, 'ceil')|int) + 1024)|string }}Mi
     storageClassName: {{ kubevirt_upload_pvc_storage_class }}
-    volumeMode: Filesystem
+    volumeMode: {{ kubevirt_upload_pvc_volume_mode }}
   source:
     upload: {}

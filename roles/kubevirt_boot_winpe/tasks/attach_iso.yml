@@ -23,6 +23,8 @@
                     cdrom:
                       bus: sata
                     name: cd-drive-1
+                    shareable: true
+                    readonly: true
                   - bootOrder: 2
                     disk:
                       bus: virtio

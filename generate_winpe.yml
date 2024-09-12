@@ -1,6 +1,6 @@
 ---
 - name: generate winpe
-  hosts: "*_role_wadk"
+  hosts: "*_role_wadk:all"
   become_method: ansible.builtin.runas
   become: false
   vars:
