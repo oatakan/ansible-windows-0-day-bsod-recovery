@@ -1,6 +1,6 @@
 ---
 - name: upload winpe iso
-  hosts: "*_role_wadk"
+  hosts: all
   become_method: ansible.builtin.runas
   become: false
   vars:
