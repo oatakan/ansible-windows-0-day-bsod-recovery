@@ -17,7 +17,6 @@
     loop_var: vm
   when:
     - nodes is defined
-    - hostvars[vm].uid is defined
     - hostvars[vm].labels['vm.kubevirt.io/name'] is defined
     - (nodes | json_query(query)) | length > 0
   vars:
@@ -49,7 +48,6 @@
     loop_var: vm
   when:
     - nodes is defined
-    - hostvars[vm].uid is defined
     - hostvars[vm].labels['vm.kubevirt.io/name'] is defined
     - (nodes | json_query(query)) | length > 0
   vars:

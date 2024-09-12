@@ -7,9 +7,6 @@ controller_execution_environments:
 controller_organizations:
   - name: Default
     default_environment: ansible-base-ee-dev
-controller_settings:
-  - name: AWX_TASK_ENV
-    value: '{ "GIT_SSL_NO_VERIFY": "True" }'
 
 controller_credentials:
   - name: Windows Machine Credential

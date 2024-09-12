@@ -26,3 +26,4 @@
       vars:
         oc_auth_type: api
         auth_action: logout
+      when: kubevirt_boot_winpe_kubevirt_clear_auth_key
