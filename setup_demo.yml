@@ -3,7 +3,7 @@
   hosts: localhost
   gather_facts: false
   vars:
-    base_dir: aap_product_demos_config
+    base_dir: windows-0-day-bsod-recovery
 
   tasks:
     - name: include config data for the demo
