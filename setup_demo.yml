@@ -1,0 +1,14 @@
+---
+- name: setup demo on Ansible Automation Platform
+  hosts: localhost
+  gather_facts: false
+  vars:
+    base_dir: aap_product_demos_config
+
+  tasks:
+    - name: include config data for the demo
+      ansible.builtin.include_vars: "{{ base_dir }}/setup.yml"
+
+    - name: import demo configuration
+      ansible.builtin.include_role:
+        name: infra.controller_configuration.dispatch
