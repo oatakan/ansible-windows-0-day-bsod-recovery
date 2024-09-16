@@ -11,7 +11,6 @@ nodes:
         size: 40GiB
     memory: 6144
     cpu: 2
-    user_name: vagrant
     template: "{{ infra_template_name | default('windows-2022-standard') }}"
   - name: winfix2
     role: windows
@@ -23,5 +22,4 @@ nodes:
         size: 40GiB
     memory: 6144
     cpu: 2
-    user_name: vagrant
     template: "{{ infra_template_name | default('windows-2022-standard') }}"

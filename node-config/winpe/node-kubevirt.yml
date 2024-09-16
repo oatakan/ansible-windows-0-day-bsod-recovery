@@ -11,5 +11,4 @@ nodes:
         size: 60GiB
     memory: 6144
     cpu: 2
-    user_name: vagrant
     template: "{{ infra_template_name | default('windows-2022-standard') }}"
